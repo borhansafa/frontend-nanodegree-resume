@@ -60,7 +60,9 @@ var googleMap = '<div id="map"></div>';
 
 
 /*
-The Internationalize Names challenge found in the lesson Flow Control from JavaScript Basics requires you to create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
+The Internationalize Names challenge found in the lesson Flow Control from JavaScript Basics
+requires you to create a function that will need this helper code to run. Don't delete!
+It hooks up your code to the button you'll be appending.
 */
 $(document).ready(function() {
   $('button').click(function() {
@@ -69,6 +71,7 @@ $(document).ready(function() {
     $name.html(iName);
   });
 });
+
 
 /*
 The next few lines about clicks are for the Collecting Click Locations quiz in the lesson Flow Control from JavaScript Basics.
@@ -84,12 +87,6 @@ function logClicks(x,y) {
   );
   console.log('x location: ' + x + '; y location: ' + y);
 }
-
-$(document).click(function(loc) {
-  // your code goes here!
-});
-
-
 
 /*
 This is the fun part. Here's where we generate the custom Google Map for the website.
@@ -121,6 +118,8 @@ function initializeMap() {
   locationFinder() returns an array of every location string from the JSONs
   written for bio, education, and work.
   */
+
+
   function locationFinder() {
 
     // initializes an empty array
@@ -247,3 +246,4 @@ Uncomment the code below when you're ready to implement a Google Map!
   //Make sure the map bounds get updated on page resize
 //  map.fitBounds(mapBounds);
 //});
+// initializeMap();
