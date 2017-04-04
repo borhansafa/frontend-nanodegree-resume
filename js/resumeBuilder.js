@@ -69,6 +69,21 @@ function displayBio() {
         $("#skills").append(formattedSkill);
     }
 }
+
+var bio = {
+    "name": "MD.Borhan Safa",
+    "role": "Web Developer",
+    "welcomeMessage": "Hello, My name is MD.Borhan Safa and I thank you very much for visiting my website.",
+    "biopic": "images/fry.jpg",
+    "contacts": {
+        "mobile": "+4917630157951",
+        "email": "borhansafa@yahoo.com",
+        "github": "borhansafa",
+        "location": "Alfred-Messel-Weg 6A, Darmstadt, 64287, Germany"
+    },
+    "skills": ["PHP", "MySql", "CakePHP"]
+}
+
 var work = {
     "jobs": [{
         "employer": "EBiz Consult",
@@ -91,19 +106,7 @@ var work = {
     }]
 }
 
-var bio = {
-    "name": "MD.Borhan Safa",
-    "role": "Web Developer",
-    "welcomeMessage": "Hello, My name is MD.Borhan Safa and I thank you very much for visiting my website.",
-    "biopic": "images/fry.jpg",
-    "contacts": {
-        "mobile": "+4917630157951",
-        "email": "borhansafa@yahoo.com",
-        "github": "borhansafa",
-        "location": "Darmstadt, Germany"
-    },
-    "skills": ["PHP", "MySql", "CakePHP"]
-}
+
 
 var education = {
     "schools": [{
